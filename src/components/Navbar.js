@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 // import Button from './Button'
-import './Navbar.css'
+import './CSS/Navbar.css'
 
 function Navbar() {
 
@@ -30,7 +30,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={closedMobileMenu}>
-                    <img src="	https://bariflo.teceads.co.in/images/logo.png" className="bariflolab-logo" alt="bariflo-logo"></img>
+                    <img src="https://bariflo.teceads.co.in/images/logo.png" className="bariflolab-logo" alt="bariflo-logo"></img>
                     {/* <i className="fab fa-typo3"/> */}
                 </Link>
 
@@ -49,11 +49,11 @@ function Navbar() {
                             HOME
                         </Link>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link to="/products" className='nav-links' onClick={closedMobileMenu}>
                         PRODUCTS
                         </Link>
-                    </li>
+                    </li> */}
                     <li className='nav-item'>
                         <Link to="/ourteam" className='nav-links' onClick={closedMobileMenu}>
                             OUR TEAM

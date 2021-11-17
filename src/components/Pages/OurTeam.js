@@ -1,6 +1,6 @@
 import React from "react";
-// import "../../App.css";
-import "../OurTeam.css";
+import "../CSS/OurTeam.css";
+import NameTags from "../NameTags";
 import OurTeamCard from "../OurTeamCard";
 import { OurTeamCardDetails } from "../OurTeamCardDetails";
 
@@ -17,20 +17,19 @@ function OurTeam() {
       <div className="our_team_body">
         <section>
           <div className="select_name_div">
-              <h5><a href="#Mrityunjay">MRITYUNJAY SAHU</a></h5>
-              <h5><a href="#Anudhyan">ANUDHYAN MISHRA</a></h5>
-              <h5><a href="#Supratim">SUPRATIM DUTTA</a></h5>
-              <h5><a href="#Sathinarayan">Dr. K SATHINARAYAN</a></h5>
-              <h5><a href="#Murthy">MR. P V G K MURTHY</a></h5>
-              <h5><a href="#Amit">PROF. AMIT KUMAR MISHRA</a></h5>
-              <h5><a href="#Sunil">PROF. SUNIL MANOHAR DASH</a></h5>
-              <h5><a href="#Sunita">PROF. SUNITA MISHRA</a></h5>
-              <h5><a href="#Rahul">RAHUL JATHAR</a></h5>
-              <h5><a href="#Sumit">SUMIT SAMAL</a></h5>
-              <h5><a href="#Anish">ANISH AGARWAL</a></h5>
+          {
+          OurTeamCardDetails.map((slide, index)=>{
+              var href = "#"+ slide.id;
+                return (
+                <NameTags href={href} name={slide.name} key={index}/>
+                )
+            })
+          }
+
           </div>
           <div className="our_team_container">
-            {OurTeamCardDetails.map((slide, index) => {
+            {
+            OurTeamCardDetails.map((slide, index) => {
               return (
                 <OurTeamCard
                   image={slide.image}
@@ -39,6 +38,7 @@ function OurTeam() {
                   para={slide.para}
                   key={index}
                   id={slide.id}
+                  href={slide.href}
                 />
               );
             })}

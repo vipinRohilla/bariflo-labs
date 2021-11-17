@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import ProductCard from "../ProductCard";
 import { ProductCardDetails } from "../ProductCardDetails";
-import "../Products.css";
+import "../CSS/Products.css";
 
 function Products() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "../ContactUs.css";
+import "../CSS/ContactUs.css";
 
 function ContactUs() {
   //   const [state, setState] = useState({

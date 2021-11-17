@@ -1,6 +1,6 @@
 import React from 'react'
 // import Button from './Button'
-import './Body.css'
+import './CSS/Body.css'
 import '../App.css'
 
 function Body() {

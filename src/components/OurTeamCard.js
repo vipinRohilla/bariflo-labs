@@ -25,21 +25,26 @@ function OurTeamCard(props) {
             </div>
           </div>
           <ul className="sci">
-            <li>
+            {/* <li>
               <a href="https://www.facebook.com">
                 <i className="fa fa-facebook my_facebook_logo" aria-hidden="true" />
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="https://www.twitter.com">
                 <i className="fa fa-twitter my_twitter_logo" aria-hidden="true" />
               </a>
-            </li>
+            </li> */}
             <li>
+              <a href={props.href} target="_blank" rel="noreferrer">
+                <i className="fa fa-linkedin my_linkedin_logo" aria-hidden="true" />
+              </a>
+            </li>
+            {/* <li>
               <a href="https://www.pinterest.com">
                 <i className="fa fa-pinterest my_pinterest_logo" aria-hidden="true" />
               </a>
-            </li>
+            </li> */}
           </ul>
           <div className="our_team_button_div">
             <button className="our_team_button" onClick={handleClick}>

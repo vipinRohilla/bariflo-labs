@@ -1,6 +1,6 @@
 import React from "react";
 import CardItem from "./CardItem";
-import "./Cards.css";
+import "./CSS/Cards.css";
 
 function Cards() {
   return (
@@ -23,28 +23,28 @@ function Cards() {
             <CardItem
               // src = {require("./images/img-7.jpg").default}
               src="https://bariflolabs.com/wp-content/uploads/2020/05/lance-anderson-G2SDLsJp3rg-unsplash-scaled.jpg"
-              text="Water Body Rejuvenation"
+              text="Intelligent Water Bodies Management"
               label="Click me"
               path="/services"
             />
             <CardItem
               // src = {require("./images/img-7.jpg").default}
               src="https://bariflolabs.com/wp-content/uploads/2020/05/lance-anderson-G2SDLsJp3rg-unsplash-scaled.jpg"
-              text="Aqua Culture"
+              text="Intelligent Aqua Bodies Management"
               label="Click me"
               path="/services"
             />
             <CardItem
               // src = {require("./images/img-7.jpg").default}
               src="https://bariflolabs.com/wp-content/uploads/2019/10/blog-ww-1.jpg"
-              text="Water Body Rejuvenation"
+              text="Intelligent Aqua Vertical Farming"
               label="Click me"
               path="/services"
             />
             <CardItem
               // src = {require("./images/img-7.jpg").default}
               src="https://bariflolabs.com/wp-content/uploads/2019/10/blog-ww-1.jpg"
-              text="Water Body Rejuvenation"
+              text="Intelligent Biofloc Aqua Farming"
               label="Click me"
               path="/services"
             />
