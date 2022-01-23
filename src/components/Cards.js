@@ -21,32 +21,28 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              // src = {require("./images/img-7.jpg").default}
               src="https://bariflolabs.com/wp-content/uploads/2020/05/lance-anderson-G2SDLsJp3rg-unsplash-scaled.jpg"
               text="Intelligent Water Bodies Management"
               label="Click me"
-              path="/services"
+              path="/IntelligentWaterBodiesManagement"
             />
             <CardItem
-              // src = {require("./images/img-7.jpg").default}
               src="https://bariflolabs.com/wp-content/uploads/2020/05/lance-anderson-G2SDLsJp3rg-unsplash-scaled.jpg"
               text="Intelligent Aqua Bodies Management"
               label="Click me"
-              path="/services"
+              path="/IntelligentAquaBodiesManagement"
             />
             <CardItem
-              // src = {require("./images/img-7.jpg").default}
               src="https://bariflolabs.com/wp-content/uploads/2019/10/blog-ww-1.jpg"
               text="Intelligent Aqua Vertical Farming"
               label="Click me"
-              path="/services"
+              path="/IntelligentAquaVerticalFarming"
             />
             <CardItem
-              // src = {require("./images/img-7.jpg").default}
               src="https://bariflolabs.com/wp-content/uploads/2019/10/blog-ww-1.jpg"
               text="Intelligent Biofloc Aqua Farming"
               label="Click me"
-              path="/services"
+              path="/IntelligentBioflocAquaFarming"
             />
           </ul>
         </div>

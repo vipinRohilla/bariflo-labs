@@ -1,0 +1,197 @@
+.Rejuvenation_of_water_bodies, .Restoration_of_water_bodies{
+    display: flex;
+    height: 40vh;
+}
+
+.Rejuvenation-left-box, .Restoration-left-box{
+    width: 40vw;
+    padding: 25px;
+    background: #0675ba;
+    /* height: 100%; */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+}
+
+.Rejuvenation-left-box > h1, .Restoration-left-box > h1{
+    color: #fff;
+    border-right: 1px solid #fff;
+    border-left : 1px solid #fff;
+}
+
+.Rejuvenation-right-box, .Restoration-right-box{
+    width: 60vw;
+    padding: 25px;
+    background: #0675ba;
+    /* height: 100%; */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+}
+
+.Rejuvenation-right-box > h4, .Restoration-right-box > h4{
+    color :#fff;
+}
+
+.Ecosystem-before-industrial-revolution{
+
+}
+
+.Ecosystem-before-industrial-revolution-heading > h1{
+    margin: 10px 0px;
+    padding : 50px 0px;
+    background: #0675ba;
+    color: #fff;
+    font-weight: bolder;
+}
+.Ecosystem-before-industrial-revolution-heading{
+    /* padding: 50px 0px; */
+}
+
+.Ecosystem-before-industrial-revolution-image-box{
+
+}
+
+.Ecosystem-before-industrial-revolution-image{
+    display: flex;
+}
+
+.Ecosystem-before-industrial-revolution-image > img{
+    width: 50%;
+}
+
+.Ecosystem-before-industrial-revolution-Diagram-image > img{
+    width: 70%;
+    text-align: center;
+}
+
+
+.Ecosystem-after-industrial-revolution{
+
+}
+.Ecosystem-after-industrial-revolution-heading > h1{
+    margin: 10px 0px;
+    padding : 50px 0px;
+    background: #0675ba;
+    color: #fff;
+    font-weight: bolder;
+}
+.Ecosystem-after-industrial-revolution-heading{
+    /* margin: 50px 10px; */
+}
+
+.Ecosystem-after-industrial-revolution-image-box{
+    
+}
+
+.Ecosystem-after-industrial-revolution-image{
+    display: flex;
+}
+
+.Ecosystem-after-industrial-revolution-image > img{
+    width: 50%;
+}
+
+@media (max-width : 850px){
+    .Rejuvenation-right-box > h4, .Restoration-right-box > h4 {
+        font-size: 13px;
+    }
+    .Rejuvenation-left-box > h1, .Restoration-left-box > h1 {
+        font-size: 20px;
+    }
+    .Rejuvenation_of_water_bodies, .Restoration_of_water_bodies {
+        display: flex;
+        height: 30vh;
+    }
+}
+
+@media (max-width : 750px){
+    .Rejuvenation-right-box > h4, .Restoration-right-box > h4 {
+        font-size: 11px;
+    }
+    .Rejuvenation-left-box > h1, .Restoration-left-box > h1 {
+        font-size: 19px;
+    }
+    .Rejuvenation_of_water_bodies, .Restoration_of_water_bodies {
+        display: flex;
+        height: 26vh;
+    }
+}
+
+@media (max-width : 650px){
+    .Rejuvenation-right-box > h4, .Restoration-right-box > h4 {
+        font-size: 10px;
+    }
+    .Rejuvenation-left-box > h1, .Restoration-left-box > h1 {
+        font-size: 18px;
+    }
+    .Rejuvenation_of_water_bodies, .Restoration_of_water_bodies {
+        display: flex;
+        height: 25vh;
+    }
+}
+
+@media (max-width : 550px){
+    .Rejuvenation-right-box > h4, .Restoration-right-box > h4 {
+        font-size: 9px;
+    }
+    .Rejuvenation-left-box > h1, .Restoration-left-box > h1 {
+        font-size: 17px;
+    }
+    .Rejuvenation_of_water_bodies, .Restoration_of_water_bodies {
+        display: flex;
+        height: 24vh;
+    }
+}
+
+@media (max-width : 500px){
+    .Rejuvenation-right-box > h4, .Restoration-right-box > h4 {
+        font-size: 7.7px;
+    }
+    .Rejuvenation-left-box > h1, .Restoration-left-box > h1 {
+        font-size: 12px;
+    }
+    .Rejuvenation_of_water_bodies, .Restoration_of_water_bodies {
+        display: flex;
+        height: 21vh;
+    }
+}
+
+@media (max-width : 410px){
+    .Rejuvenation-right-box > h4, .Restoration-right-box > h4 {
+        font-size: 5.8px;
+    }
+    .Rejuvenation-left-box > h1, .Restoration-left-box > h1 {
+        font-size: 10px;
+    }
+    .Rejuvenation_of_water_bodies, .Restoration_of_water_bodies {
+        display: flex;
+        height: 16vh;
+    }
+}
+
+@media (max-width : 350px){
+    .Rejuvenation-right-box > h4, .Restoration-right-box > h4 {
+        font-size: 5.8px;
+    }
+    .Rejuvenation-left-box > h1, .Restoration-left-box > h1 {
+        font-size: 10px;
+    }
+    .Rejuvenation_of_water_bodies, .Restoration_of_water_bodies {
+        display: flex;
+        height: 18vh;
+    }
+}
+
+@media (max-width : 300px){
+    .Rejuvenation-right-box > h4, .Restoration-right-box > h4 {
+        font-size: 4.8px;
+    }
+    .Rejuvenation-left-box > h1, .Restoration-left-box > h1 {
+        font-size: 10px;
+    }
+    .Rejuvenation_of_water_bodies, .Restoration_of_water_bodies {
+        display: flex;
+        height: 17vh;
+    }
+}

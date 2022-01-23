@@ -135,6 +135,14 @@
     align-items: center;
     margin-bottom: 16px;
   }
+
+  .social-logo > span{
+    color: #0675ba;
+    font-size: 1.6rem;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+  }
   
   .website-rights {
     color: #646464;

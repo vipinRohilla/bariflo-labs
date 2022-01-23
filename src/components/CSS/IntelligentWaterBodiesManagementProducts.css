@@ -1,0 +1,108 @@
+.Intelligent-water-bodies-management-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.Intelligent-water-bodies-management-products-container{
+    width: 500px;
+    margin: 30px;
+    background: #0675ba;
+    padding: 30px 1px;
+    height: 660px;
+    border-radius: 5px;
+    /* height : auto; */
+}
+.Intelligent-water-bodies-management-products-heading{
+
+}
+.Intelligent-water-bodies-management-products-heading > h1{
+    margin: 10px 0px;
+    color: #fff;
+    border-bottom : 1px solid #fff;
+    border-top : 1px solid #fff;
+
+}
+.Intelligent-water-bodies-management-products-image-box{
+    display: flex;
+    justify-content: center;
+}
+.Intelligent-water-bodies-management-products-information{
+
+}
+.Intelligent-water-bodies-management-products-information > h1{
+    color: #fff;
+    margin: 10px 0px;
+    border-bottom : 1px solid;
+    border-top : 1px solid;
+
+}
+.Intelligent-water-bodies-management-products-image-box > img{
+        height: 300px;
+        width: 100%;
+}
+.Intelligent-water-bodies-management-products-bullet-points-box{
+
+}
+
+.Intelligent-water-bodies-management-products-bullet-points{
+    list-style: none;
+}
+
+.Intelligent-water-bodies-management-products-bullet-points > li{
+    font-family: Gotham-light;
+    color: #fff;
+    margin: 10px 10px;
+  /* font-size: 20px; */
+}
+
+@media (max-width : 570px){
+    .Intelligent-water-bodies-management-products-container {
+        width: 400px;
+    }
+    .Intelligent-water-bodies-management-products-heading > h1 , .Intelligent-water-bodies-management-products-information > h1{
+        font-size: 30px;
+    }
+    .Intelligent-water-bodies-management-products-bullet-points > li{
+        font-size: 16px;
+    }
+}
+
+@media (max-width : 470px){
+    .Intelligent-water-bodies-management-products-container {
+        width: 350px;
+    }
+    .Intelligent-water-bodies-management-products-heading > h1, .Intelligent-water-bodies-management-products-information > h1 {
+        font-size: 25px;
+    }
+    .Intelligent-water-bodies-management-products-bullet-points > li{
+        font-size: 14px;
+    }
+}
+
+@media (max-width : 410px){
+    .Intelligent-water-bodies-management-products-container {
+        width: 300px;
+    }
+    .Intelligent-water-bodies-management-products-heading > h1,.Intelligent-water-bodies-management-products-information > h1 {
+       font-size: 20px;
+    }
+    .Intelligent-water-bodies-management-products-bullet-points > li{
+        font-size: 12px;
+    }
+}
+
+@media (max-width : 370px){
+    .Intelligent-water-bodies-management-products-container {
+        width: 270px;
+    }
+    .Intelligent-water-bodies-management-products-heading > h1,.Intelligent-water-bodies-management-products-information > h1 {
+        font-size: 15px;
+    }
+    .Intelligent-water-bodies-management-products-bullet-points > li{
+        font-size: 11px;
+    }
+    .Intelligent-water-bodies-management-products-container {
+        height: 600px;
+        }
+}

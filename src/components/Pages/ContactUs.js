@@ -2,6 +2,7 @@ import React from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../CSS/ContactUs.css";
+import Navbar from "../Navbar";
 
 function ContactUs() {
   //   const [state, setState] = useState({
@@ -29,6 +30,7 @@ function ContactUs() {
   //   };
   return (
     <>
+     <Navbar first="HOME" second="OUR TEAM" third="CONTACT US" firstlink="/" secondlink = "/ourteam" thirdlink="/contactus"/>
       <div className="get_a_demo_container">
         <div className="get_a_demo_heading">
           <h1>GET A DEMO</h1>

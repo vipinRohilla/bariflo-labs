@@ -1,6 +1,7 @@
 import React from "react";
 import "../CSS/OurTeam.css";
 import NameTags from "../NameTags";
+import Navbar from "../Navbar";
 import OurTeamCard from "../OurTeamCard";
 import { OurTeamCardDetails } from "../OurTeamCardDetails";
 
@@ -8,6 +9,8 @@ function OurTeam() {
   
   return (
     <>
+    {/* <Navbar first="HOME" second="OUR TEAM" third="CONTACT US"/> */}
+    <Navbar first="HOME" second="OUR TEAM" third="CONTACT US" firstlink="/home" secondlink = "/ourteam" thirdlink="/contactus"/>
       <div className="banner_for_our_team">
         <h1>OUR TEAM</h1>
       </div>

@@ -65,7 +65,8 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img src="	https://bariflo.teceads.co.in/images/logo.png" className="bariflolab-logo" alt="bariflo-logo"></img>
+            <img src={require('./images/logo1.png').default} className="bariflolab-logo" alt="bariflo-logo"></img>
+            <span>bariflo labs</span>
               {/* <i className='fab fa-typo3' /> */}
             </Link>
           </div>

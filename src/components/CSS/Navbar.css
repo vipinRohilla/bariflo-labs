@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Gotham-medium";
+  src: url(../Gotham-Font/GothamMedium.ttf);
+}
 .navbar {
     /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
     /* background: #efeeeefc;  */
@@ -22,9 +26,10 @@
   .navbar-logo > img {
     max-width: 100%;
     display: block;
+    margin-left: 10px;
 }
   .bariflolab-logo{
-    width: 200px;
+    height: 45px;
   }
   
   .navbar-container {
@@ -41,12 +46,26 @@
     /* color: rgb(27, 27, 27);
      */
      color: #338ef7;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 300px;
+  }
+
+  .navbar-logo > span{
+    color: #0675ba;
+    font-size: 1.6rem;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-transform: uppercase; */
+    font-family: Gotham-medium;
+    margin-top: 17px;
   }
   
   .fa-typo3 {
@@ -77,6 +96,8 @@
     padding: 0.5rem 1rem;
     font-size: 0.75rem;
     height: 100%;
+    font-family: Gotham-light;
+    font-weight: bold;
   }
   
   .nav-links:hover {
@@ -162,7 +183,7 @@
       position: absolute;
       top: 10px;
       left: 0;
-      width: 160px;
+      width: auto;
     }
   
     .menu-icon {
@@ -207,14 +228,16 @@
 
   }
   @media (max-width: 600px) {
-      .navbar-logo{
+      .navbar-logo > span{
         font-size: 20px;
-        height: 65px;
+        /* height: 65px; */
       }
 
   }
   @media (max-width: 400px) {
-
+    .navbar-logo > span{
+      display: none;
+    }
 
   }
   @media (max-width: 250px) {

@@ -3,10 +3,12 @@ import "../../App.css";
 import Body from "../Body";
 import Cards from "../Cards";
 import "../CSS/Home.css";
+import Navbar from "../Navbar";
 
 function Home() {
   return (
     <>
+    <Navbar first="HOME" second="OUR TEAM" third="CONTACT US" firstlink="/" secondlink = "/ourteam" thirdlink="/contactus"/>
       <Body />
       <div className="about_company section-spacing">
         <div className="about_overlay">
@@ -24,7 +26,7 @@ function Home() {
                   utilising surface water reserve.
                 </p>
                 <h3 className="mission">
-                  Mission is about people not projects
+                  Mission is about people
                 </h3>
                 <p className="our_mission_para">
                   Develop sustainable technology and processes for aquaculture

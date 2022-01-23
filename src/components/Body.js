@@ -7,8 +7,8 @@ function Body() {
     return (
         <div className = 'hero-container'>
             {/* <video src="videos/video-2.mp4"/> */}
-            <h1>BARIFLO LABS</h1>
-            <p>Revolutionizing the space of waterbody management</p>
+            {/* <h1>BARIFLO LABS</h1> */}
+            <p>Catalyzing the blue revolution</p>
             <div className = "hero-btns">
                 {/* <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large'>
                     GET STARTED

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Gotham-light";
+  src: url(../Gotham-Font/Gotham-Light.otf);
+}
 .cards {
     padding: 2rem;
     background: #fff;
@@ -10,11 +14,12 @@
   .cards_upper_part{
     /* background: #f3f3f3; */
     background: #022e5f;
+    background: #187abd;
     padding: 20px 0px;
   }
 
   .cards_upper_part > h1{
-    color: var(--fourth);
+    color: #fff;
   }
   /* .cards__container { */
     /* display: flex;
@@ -122,6 +127,7 @@
       text-align: center;
       line-height: 25px;
       font-weight: 100;
+      font-family: Gotham-light;
   }
   @media (min-width: 1600px) {
     .long__paragraph{
@@ -132,7 +138,7 @@
         font-size: 8rem;
       }
       .hero-container > p{
-        font-size: 3.5rem;
+        font-size: 4.5rem;
       }
       .cards__item__text{
         font-size: 1.8rem;
@@ -154,7 +160,7 @@
         font-size: 4rem;
       }
       .hero-container > p{
-        font-size: 2.5rem;
+        font-size: 4.5rem;
       }
       .cards__item__text{
         font-size: 1.5rem;
@@ -176,7 +182,7 @@
         font-size: 4rem;
       }
       .hero-container > p{
-        font-size: 2rem;
+        font-size: 4rem;
       }
       .cards__item__text{
         font-size: 1.4rem;
@@ -194,7 +200,7 @@
         font-size: 4rem;
       }
       .hero-container > p{
-        font-size: 1.5rem;
+        font-size: 3.5rem;
       }
       .cards__item__text{
         font-size: 1.4rem;
@@ -213,7 +219,7 @@
         font-size: 3rem;
       }
       .hero-container > p{
-        font-size: 1.3rem;
+        font-size: 2.3rem;
       }
       .cards__item__text{
         font-size: 1.3rem;
@@ -232,7 +238,7 @@
         font-size: 2.5rem;
       }
       .hero-container > p{
-        font-size: 1.2rem;
+        font-size: 2.2rem;
       }
       .cards__item__text{
         font-size: 1.2rem;
@@ -254,7 +260,7 @@
         font-size: 1rem;
       }
       .cards__item__text{
-        font-size: 1.2rem;
+        font-size: 3.2rem;
       }
       .cards > h1{
         font-size: 2.5rem;

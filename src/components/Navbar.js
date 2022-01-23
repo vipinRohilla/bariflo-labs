@@ -2,8 +2,9 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 // import Button from './Button'
 import './CSS/Navbar.css'
+import "./images/logo.png"
 
-function Navbar() {
+function Navbar(props) {
 
     const [click, setClick] = useState(false);
     // const [button, setButton] = useState(true);
@@ -30,7 +31,8 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={closedMobileMenu}>
-                    <img src="https://bariflo.teceads.co.in/images/logo.png" className="bariflolab-logo" alt="bariflo-logo"></img>
+                <span>Bariflo Labs</span>
+                    <img src={require('./images/logo1.png').default}  className="bariflolab-logo" alt="bariflo-logo"/>
                     {/* <i className="fab fa-typo3"/> */}
                 </Link>
 
@@ -45,8 +47,8 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
                     <li className='nav-item'>
-                        <Link to="/" className='nav-links' onClick={closedMobileMenu}>
-                            HOME
+                        <Link to = {props.firstlink} className='nav-links' onClick={closedMobileMenu}>
+                            {props.first}
                         </Link>
                     </li>
                     {/* <li className='nav-item'>
@@ -55,13 +57,13 @@ function Navbar() {
                         </Link>
                     </li> */}
                     <li className='nav-item'>
-                        <Link to="/ourteam" className='nav-links' onClick={closedMobileMenu}>
-                            OUR TEAM
+                        <Link to= {props.secondlink} className='nav-links' onClick={closedMobileMenu}>
+                            {props.second}
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="/contactus" className='nav-links' onClick={closedMobileMenu}>
-                            CONTACT US
+                        <Link to= {props.thirdlink} className='nav-links' onClick={closedMobileMenu}>
+                            {props.third}
                         </Link>
                     </li>
                     {/* <li className='nav-item'>

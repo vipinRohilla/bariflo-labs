@@ -9,10 +9,20 @@
     --black : #000;
 }
 
+@font-face {
+    font-family: "Gotham-light";
+    src: url(../Gotham-Font/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: "Gotham-medium";
+    src: url(../Gotham-Font/GothamMedium_1.ttf);
+}
+
 .callout-banner{
     /* background: rgb(41 52 80); */
     /* background: #161623; */
-    background: var(--first);
+    background: #187abd;
 }
 
 .clearfix{
@@ -38,6 +48,7 @@
     
     font-size: 3rem;
     color: #fff;
+    font-family: Gotham-medium;
 }
 .paragraph_div{
     width: 60%;
@@ -49,6 +60,7 @@
     font-size: 1.23rem;
     font-weight: 300;
     text-align: justify;
+    font-family: Gotham-light;
 }
 
 .three_icons_div{
@@ -120,17 +132,23 @@
 .about_theme_title_one > h2{
     /* color: #fff; */
     color: crimson;
+    color: #187abd;
+    font-family: Gotham-medium;
 
 }
 .about_theme_title_one > hr{
     height: 3px;
-    background: crimson;
+    /* background: crimson; */
+    background: #187abd;
     border: none;
 }
+
+
 .our_vision_para{
     font-size: 0.9rem;
     font-weight: lighter;
     line-height: 20px;
+    font-family: "Gotham-light";
     /* color: rgb(92, 91, 91); */
     /* color: #fff; */
 }
@@ -140,15 +158,17 @@ margin: 0px 30px;
 }
 
 .mission{
-    margin: 10px 0px;
+    margin-top: 10px;
     /* color: #d62196; */
-    color: var(--first);
+    color: #187abd;
+    font-family: Gotham-medium;
 }
 
 .our_mission_para{
     font-size: 0.9rem;
     font-weight: lighter;
     line-height: 20px;
+    font-family: "Gotham-light";
     /* color: rgb(92, 91, 91); */
     /* color: #fff; */
 }
@@ -163,9 +183,10 @@ margin: 0px 30px;
     font-size: 2.7rem;
     font-weight: bolder;
     margin-top: 10px;
-    background: #016cb5;
+    background: #187abd;
     color: #fff;
     padding: 15px 0px;
+    font-family: 'Gotham-light';
 }
 .support_paragraph{
     text-align: center;

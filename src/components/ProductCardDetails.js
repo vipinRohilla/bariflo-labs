@@ -24,3 +24,9 @@ export const ProductCardDetails = [
         title : "Vibro"
     }
 ]
+
+
+
+/*
+
+*/
