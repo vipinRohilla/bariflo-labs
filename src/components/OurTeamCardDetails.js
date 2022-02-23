@@ -1,7 +1,7 @@
 export const OurTeamCardDetails = [
     {
         name: "Mrityunjay Sahu",
-        desc : "CTO & MD",
+        desc : "Managing Director",
         image: require("./images/Mrityunjay.jpeg").default,
         para : "Mrutyunjaya Sahu is a graduate from NIT Rourkela and pursued PhD on water-body rejuvenation from University of Sydney. He has been associated on research and consultancy related to issues on surface water-body for the last 10 years. He has published peer reviewed research articles and filed 7 tech,process and design patents of which 4 are granted.",
         id: "Mrityunjay",
@@ -9,7 +9,7 @@ export const OurTeamCardDetails = [
     },
     {
         name: "Anudhyan Mishra",
-        desc : "CEO & Director",
+        desc : "CMO",
         image: require("./images/Anudhyan.jpeg").default,
         para : "Anudhyan is graduated from NIT Rourkela. He has prior startup experience and worked in TATA Steel for the last 10 years. He has skills on market research and customer acquisition.",
         id: "Anudhyan",
